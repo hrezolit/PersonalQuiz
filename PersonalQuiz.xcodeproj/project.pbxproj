@@ -14,6 +14,9 @@
 		D57DB8AC25FB1B6B00FEE916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57DB8AB25FB1B6B00FEE916 /* Assets.xcassets */; };
 		D57DB8AF25FB1B6B00FEE916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57DB8AD25FB1B6B00FEE916 /* LaunchScreen.storyboard */; };
 		D57DB8BB25FB3BD700FEE916 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DB8BA25FB3BD700FEE916 /* question.swift */; };
+		D57DB8C225FC5D2800FEE916 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DB8C125FC5D2800FEE916 /* ResponseType.swift */; };
+		D57DB8C825FC5FAA00FEE916 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DB8C725FC5FAA00FEE916 /* Answer.swift */; };
+		D57DB8CB25FC60CE00FEE916 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DB8CA25FC60CE00FEE916 /* AnimalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		D57DB8B025FB1B6B00FEE916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D57DB8B825FB315600FEE916 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D57DB8BA25FB3BD700FEE916 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		D57DB8C125FC5D2800FEE916 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		D57DB8C725FC5FAA00FEE916 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		D57DB8CA25FC60CE00FEE916 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +67,13 @@
 			children = (
 				D57DB8B025FB1B6B00FEE916 /* Info.plist */,
 				D57DB8A225FB1B6A00FEE916 /* AppDelegate.swift */,
+				D57DB8C125FC5D2800FEE916 /* ResponseType.swift */,
 				D57DB8A625FB1B6A00FEE916 /* ViewController.swift */,
 				D57DB8BA25FB3BD700FEE916 /* question.swift */,
 				D57DB8A425FB1B6A00FEE916 /* SceneDelegate.swift */,
 				D57DB8A825FB1B6A00FEE916 /* Main.storyboard */,
+				D57DB8C725FC5FAA00FEE916 /* Answer.swift */,
+				D57DB8CA25FC60CE00FEE916 /* AnimalType.swift */,
 				D57DB8AB25FB1B6B00FEE916 /* Assets.xcassets */,
 				D57DB8AD25FB1B6B00FEE916 /* LaunchScreen.storyboard */,
 			);
@@ -144,7 +153,10 @@
 				D57DB8A725FB1B6A00FEE916 /* ViewController.swift in Sources */,
 				D57DB8BB25FB3BD700FEE916 /* question.swift in Sources */,
 				D57DB8A325FB1B6A00FEE916 /* AppDelegate.swift in Sources */,
+				D57DB8C825FC5FAA00FEE916 /* Answer.swift in Sources */,
+				D57DB8C225FC5D2800FEE916 /* ResponseType.swift in Sources */,
 				D57DB8A525FB1B6A00FEE916 /* SceneDelegate.swift in Sources */,
+				D57DB8CB25FC60CE00FEE916 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
